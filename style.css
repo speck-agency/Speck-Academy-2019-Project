@@ -4,24 +4,32 @@
 
 header {
   background-color: #333;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
   display: inline-block;
   color: #fff;
+  font-family: 'Lato', sans-serif;
   font-size: 50px;
   padding: 10px 20px;
 }
 
 nav {
   float: right;
-  padding: 10px 20px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: stretch;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
   padding: 0 20px;
   color: #fff;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 a:hover {
@@ -38,4 +46,20 @@ footer {
   text-align: center;
   height: 100px;
   background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+	text-align: center;
+	margin-right: 15px;
+  width: 100px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
