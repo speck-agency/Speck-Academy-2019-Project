@@ -37,6 +37,10 @@ img {
 
 footer {
   padding-top: 30px;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
   color: white;
   text-align: center;
   height: 100px;
@@ -49,7 +53,7 @@ input[type=text] {
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  background-color: rgb(145, 155, 170);
+  background-color: rgb(211, 211, 211);
   color: white;
 }
 
@@ -59,7 +63,7 @@ input[type=password] {
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  background-color: rgb(145, 155, 170);
+  background-color: rgb(211, 211, 211);
   color: white;
 }
 input[type=submit] {
