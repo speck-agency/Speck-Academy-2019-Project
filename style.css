@@ -14,8 +14,11 @@ h1 {
 }
 
 nav {
-  float: right;
-  padding: 10px 20px;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  right: 10;
+  width: 100%;
 }
 
 a {
@@ -34,8 +37,47 @@ img {
 
 footer {
   padding-top: 30px;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
   color: white;
   text-align: center;
   height: 100px;
   background-color: #333;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(211, 211, 211);
+  color: white;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(211, 211, 211);
+  color: white;
+}
+input[type=submit] {
+  width: 50%;
+  float:left;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(36, 61, 128);
+  color: white;
+}
+
+.submit:hover {
+  background-color: #4CAF50;
+  color: white;
 }
