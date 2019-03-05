@@ -4,39 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
   <title>Registracija</title>
 </head>
 <body>
     <header>
         <h1>Rezervacija dvorana</h1>
         <nav>
-          <a href="#">Home</a>
+          <a href="index.html">Home</a>
           <a href="#">O nama</a>
+          <a href="hall.html">Dvorana</a>
           <a href="register.html">Registracija</a>
         </nav>
       </header>
   
   <form action="index.html" method="post">
-    <label for="username">Korisničko ime</label>
-    <input id="username" name="username" type="text" required>
-    <br>
+    <div class="kol-l">
+    <label for="username">Korisničko ime:</label>
+  </div>
+    <input id="username" name="username" placeholder="Vaše korisničko ime..." type="text" required>
+    <br><br><br>
 
-    <label for="password">Lozinka</label>
-    <input id="password" name="password" type="password" required>
-    <br>
+    <div class="kol-l">
+    <label for="password">Lozinka:</label>
+    </div>
+    <input id="password" name="password" placeholder="Vaša lozinka..." type="password" required>
+    <br><br><br>
 
-    <label for="firstName">Ime</label>
-    <input id="firstName" name="firstName" type="text">
-    <br>
+    <div class="kol-l">
+     <label for="firstName">Ime:</label> 
+    </div>
+    <input id="firstName" name="firstName" placeholder="Vaše ime..." type="text">
+    <br><br><br>
 
-    <label for="lastName">Prezime</label>
-    <input id="lastName" name="lastName" type="text">
-    <br>
-  
+    <div class="kol-l">
+      <label for="lastName">Prezime:</label>
+    </div>
+    <input id="lastName" name="lastName" placeholder="Vaše prezime..." type="text">
+    <br><br><br>
+
     <input type="submit">
   </form>
 
   <footer>
+    <hr><br>
       <h4>Grad Križevci</h4>
     </footer>
   
