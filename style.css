@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body, header {
@@ -51,4 +52,38 @@ form {
   color:#fff;
   line-height: 10px;
   font-size: 18px;
+}
+
+input[type=text], [type=password] {
+  width: 50%;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: rgb(61, 61, 61);
+  width:30%;
+  color: white;
+  margin: 12px 0 15px 15px;
+  padding:10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.kol-l {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+}
+
+.kol-d {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
 }

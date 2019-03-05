@@ -13,25 +13,34 @@
         <nav>
           <a href="index.html">Home</a>
           <a href="#">O nama</a>
+          <a href="hall.html">Dvorana</a>
           <a href="register.html">Registracija</a>
         </nav>
       </header>
   
   <form action="index.html" method="post">
+    <div class="kol-l">
     <label for="username">Korisničko ime:</label>
-    <input id="username" name="username" type="text" required>
+  </div>
+    <input id="username" name="username" placeholder="Vaše korisničko ime..." type="text" required>
     <br><br><br>
 
+    <div class="kol-l">
     <label for="password">Lozinka:</label>
-    <input id="password" name="password" type="password" required>
+    </div>
+    <input id="password" name="password" placeholder="Vaša lozinka..." type="password" required>
     <br><br><br>
 
-    <label for="firstName">Ime:</label>
-    <input id="firstName" name="firstName" type="text">
+    <div class="kol-l">
+     <label for="firstName">Ime:</label> 
+    </div>
+    <input id="firstName" name="firstName" placeholder="Vaše ime..." type="text">
     <br><br><br>
 
-    <label for="lastName">Prezime:</label>
-    <input id="lastName" name="lastName" type="text">
+    <div class="kol-l">
+      <label for="lastName">Prezime:</label>
+    </div>
+    <input id="lastName" name="lastName" placeholder="Vaše prezime..." type="text">
     <br><br><br>
 
     <input type="submit">
