@@ -1,0 +1,45 @@
+.site-header {
+    padding: 16px 24px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items:center;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.site-nav {
+    width: 100%;
+  }
+
+  a {
+    padding: 0px 8px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+  div {
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+  }
+  
+  img {
+    width: 240px;
+    height: 160px;
+    border: 1px solid #000;
+  }
+
+  .fill {
+    object-fit: fill;
+  }
+
+  h3{
+      width: 240px;
+      text-align: center;
+      border: 1px solid #000;
+  }
