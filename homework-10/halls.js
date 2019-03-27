@@ -5,8 +5,8 @@ halls[0] = {
     name: "Velika sportska dvorana",
     reservation: {
         isReserved: true,
-        reservedFrom: DateTime.fromISO("2019-03-15"),
-        reservedUntil: DateTime.fromISO("2019-03-16"),
+        reservedFrom: new Date(2019, 12, 03, 14, 00, 00, 0),
+        reservedUntil: new Date(2019, 12, 03, 14, 00, 00, 0),
     }
 }
 
@@ -15,8 +15,8 @@ halls[1] = {
     name: "Dvorana Hrvatskog doma",
     reservation: {
         isReserved: true,
-        reservedFrom: DateTime.fromISO("2019-03-17"),
-        reservedUntil: DateTime.fromISO("2019-03-18"),
+        reservedFrom: new Date(2019, 10, 03, 14, 00, 00, 0),
+        reservedUntil: new Date(2019, 10, 03, 14, 00, 00, 0),
     }
 }
 
