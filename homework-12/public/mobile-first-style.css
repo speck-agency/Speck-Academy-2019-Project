@@ -1,0 +1,215 @@
+/* Mobile laout */
+
+@media only screen and (max-width: 600px) {
+    
+  
+/* Header layout start */
+    
+    a:link {
+        text-decoration: none;
+    }
+
+
+
+    .header__grid {
+        display: grid;
+        grid-template-rows: 30%, 30%;
+        grid-template-columns: 10% 80% 10%;
+        grid-gap: 5px;
+        padding: 24px;
+    }
+
+    .header__title {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end:2;
+        text-align: center;
+        font-family: Helvetica, sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+    }
+
+    .header__elements {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        
+   
+    }
+
+    ul {
+        list-style-type: none;
+        font-family: Helvetica, sans-serif;
+        font-size: 1.1em;
+        line-height: 1.9em
+    }
+      
+/* Header layout end */
+
+/* Mobile main layout start */
+    .grid__layout {
+        display: grid;
+        grid-template-rows: 50%, 50%;
+        grid-template-columns: 10% 80% 10%;
+        grid-gap: 5px; 
+    }
+        
+  
+
+    .hall {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+      
+    }
+
+    .hall__photo {
+        text-align: center;
+    }
+
+    .hall__caption {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        text-align: center;
+    }
+
+
+    .hall__info {
+        font-family: Helvetica, sans-serif;
+        font-size:  .9em;
+    }
+
+   img {
+        width: 240px;
+        height: 160px;  
+    }
+
+
+
+    /* For images to fit into container without loosing aspect ratio */
+    .fit {
+        object-fit: cover;
+        overflow: none;
+    }
+
+    .footer {
+        font-family: Helvetica, sans-serif;
+        font-size:  0.9em;
+        padding-top: 8px;
+        color: white;
+        text-align: center;
+        height: 48px;
+        background-color: #333;
+    }
+}
+
+/* Mobile main grid layout end */
+
+
+
+/* Desktop layout */
+@media screen and (min-width: 920px) {
+
+    a:link {
+        text-decoration: none;
+      }
+
+    .header__grid {
+        display: grid;
+            grid-template-rows: 100%;
+            grid-template-columns: 5% 45% 45% 5%;
+            grid-gap: 5px;
+            padding-bottom: 24px;
+    
+    }
+   
+    .header__title {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        text-align: left;
+        font-family: Helvetica, sans-serif;
+        font-size: 1em;
+        
+    }
+
+    .header__elements {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        text-align: right;
+
+    }
+
+        ul {
+            list-style-type: none;
+            
+            font-family: Helvetica, sans-serif;
+            font-size: 1.1em;
+            line-height: 1.9em
+        }
+
+        ul li {
+            display: inline;
+            margin: 8px;
+        }
+    
+/* Header layout end */
+
+/* Desktop main grid layout start */
+
+    .desktop__layout {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 15px;
+        grid-auto-rows: minmax(120px, auto);
+        padding: 5%;
+        
+    }
+
+
+    .hall__photo {
+        
+        text-align: center;
+
+    }
+
+    img {
+        width: 240px;
+        height: 160px;   
+    }
+
+
+    .hall__info {
+        font-family: Helvetica, sans-serif;
+        font-size:  .9em;
+        text-align: center;
+    }
+
+/* For images to fit into container without loosing aspect ratio */
+    .fit {
+        object-fit: cover;
+        overflow: none;
+    }
+
+    .footer {
+        font-family: Helvetica, sans-serif;
+        font-size:  0.9em;
+        font-weight: 100;
+        padding-top: 30px;
+        color: white;
+        text-align: center;
+        height: 100px;
+        background-color: #333;
+    }
+
+}
+ 
+/* Desktop main grid layout end */
+
